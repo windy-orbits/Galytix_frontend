@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { CountryTableComponent } from './country-table/country-table.component';
 
 import { TableModule } from 'primeng/table';
+import { WeatherWizardComponent } from './weather-wizard/weather-wizard.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CountryTableComponent
+    CountryTableComponent,
+    WeatherWizardComponent
   ],
   imports: [
     BrowserModule,

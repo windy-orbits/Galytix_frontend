@@ -1,0 +1,54 @@
+<div class="container">
+    <div>
+      <h2 class="header-text">
+        Weather forecast in the capital city of {{ route_params.country }}
+      </h2>
+      <div class="divWeatherMain">
+        <div
+          style="
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+          "
+        >
+          <div class="flex-wraper">
+            <img
+              src="http://openweathermap.org/img/wn/{{
+                WeatherData.weather[0].icon
+              }}.png"
+              class="cloud-icon"
+            />
+            <span class="weather-status"
+              >{{ WeatherData.weather[0].description }}
+            </span>
+          </div>
+          <div class="flex-wraper">
+            <img src="../../assets/temp-icon.png" class="curr-temp-icon" />
+            <span class="curr-temp"> {{ WeatherData.temp_celcius }}° C</span>
+          </div>
+        </div>
+        <p class="captial-city">{{ WeatherData.name }}</p>
+  
+        <p class="min-max-temp">
+          Max: {{ WeatherData.temp_max }}°C / Min: {{ WeatherData.temp_min }}°C
+        </p>
+  
+        <div class="bottom-container">
+          <div class="flex-wraper">
+            <img src="../../assets/humidity.png" style="width: 45px" />
+            <p class="humidity">{{ WeatherData.main.humidity }}%</p>
+          </div>
+  
+          <div class="flex-wraper">
+            <img src="../../assets/storm.png" style="width: 45px" />
+            <p class="wind-speed">{{ WeatherData.wind.speed }} m/s</p>
+          </div>
+          <div class="flex-wraper">
+            <img src="../../assets/wind-direction.png" style="width: 45px" />
+            <p class="wind-dir">{{ WeatherData.wind.deg }}°</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

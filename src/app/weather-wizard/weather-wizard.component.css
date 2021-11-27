@@ -1,0 +1,91 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../assets/bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
+  .divWeatherMain {
+    border-radius: 10px;
+    /* width: 45%; */
+    padding: 16px 20px;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(8, 7, 42, 1) 75%,
+      rgb(8, 10, 63) 100%
+    );
+    color: white;
+  }
+  
+  .header-text {
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    /* color: #c74b14; */
+    color: #ee4f5f;
+    margin-top: 0 !important;
+    margin-bottom: 1.5rem !important;
+  }
+  
+  .cloud-icon {
+    width: 75px;
+  }
+  .weather-status {
+    text-transform: capitalize;
+    font-family: "Caveat", cursive;
+    font-size: 32px;
+  }
+  
+  .curr-temp-icon {
+    width: 32px;
+  }
+  
+  .curr-temp {
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    padding-left: 6px;
+  }
+  
+  .captial-city {
+    font-family: "Nunito", sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin: 0;
+    font-weight: bold;
+    letter-spacing: 0.02em;
+  }
+  
+  .min-max-temp {
+    font-family: "Roboto Mono", sans-serif;
+    font-size: 24px;
+    text-align: center;
+    margin: 8px 0;
+  }
+  
+  .bottom-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  
+  .flex-wraper {
+    display: flex;
+    align-items: center;
+  }
+  
+  .humidity,
+  .wind-speed,
+  .wind-dir {
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    padding-left: 8px;
+  }
+  
