@@ -1,10 +1,16 @@
 # Galytix_frontend
-World Weather App
+`World Weather App`
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.2.
+
+## Clone the project
+Run `git clone https://github.com/windy-orbits/Galytix_frontend.git`
+
+## Install Dependencies(Required)
+Run `npm install --save`
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `npm start` OR `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
