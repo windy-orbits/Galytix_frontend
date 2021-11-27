@@ -1,0 +1,17 @@
+.table-header {
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+  
+  .table-row {
+    cursor: pointer;
+  }
+  .table-row:hover {
+    background: #f8f9fa;
+    color: #495057;
+    border: 1 px solid #e9ecef;
+  }
+  
